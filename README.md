@@ -143,7 +143,8 @@ The Facebook model is crucial for handling seasonality, particularly evident dur
 4.Consider Diversification: While all the analyzed states exhibit favorable investment opportunities, consider diversifying the investment portfolio across multiple states. This approach can help mitigate risk and capture various market dynamics.
 
 ### References
-List of references used in the project
+List of references used in the project:
+
 1.https://facebook.github.io/prophet/docs/quick_start.html
 
 2.https://github.com/PMEAL/pmdarima
