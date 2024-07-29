@@ -145,6 +145,8 @@ The Facebook model is crucial for handling seasonality, particularly evident dur
 ### References
 List of references used in the project
 1.https://facebook.github.io/prophet/docs/quick_start.html
+
 2.https://github.com/PMEAL/pmdarima
+
 3.https://scikit-learn.org/stable/modules/model_evaluation.html
 .
