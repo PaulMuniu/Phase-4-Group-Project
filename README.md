@@ -27,11 +27,9 @@ This project focuses on time series modeling using Zillow housing data. The prim
 
 ##### 6.Conclusion
 
-##### 7Limitations
+##### 7.Recommendations
 
-##### 8.Recommendations
-
-##### 9.References
+##### 8.References
 
 ### Business Understanding
 #### Introduction
