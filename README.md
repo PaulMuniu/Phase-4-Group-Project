@@ -1,77 +1,67 @@
-# Zillow Housing Data Time Series Modeling 🏘️
-![Genre Rating Relationship](https://github.com/PaulMuniu/Phase-4-Group-Project/blob/main/Images/real%20estate%20image.jpg)
+# Zillow Housing Data Time Series Modeling 🏘️.
+<img src="Images\real estate image.jpg" alt="Genre Rating Relationship" width="800" height="300">
 
 
 ### Team Members:
 
- #### Silvia Gworit
- #### Dennis Mwenda
- #### Myra Kadenge
- #### Paul Muniu
+ 1. Silvia Gworit
+ 2. Dennis Mwenda
+ 3. Myra Kadenge
+ 4. Paul Muniu
  
  
  ##  Project Overview
-This project focuses on time series modeling using Zillow housing data. The primary objective is to understand housing market trends and forecast future values using various time series analysis techniques.
+The real estate market is dynamic and constantly evolving. To stay competitive and profitable, real estate companies need to analyze market trends. Happy Homes Partners(our clients), a real estate investor, recognizes the importance of data science in identifying lucrative investment opportunities and guiding clients towards profitable decisions.
+
+
 
 ### Table of Contents: 
-
-##### 1.Business Understanding
- 
-##### 2.Data Understanding
-
-##### 3.Data Preparation
-
-##### 4.Exploratory Data Analysis
-
-##### 5.Modeling
-
-##### 6.Conclusion
-
-##### 7.Recommendations
-
-##### 8.References
+1. Business Understanding 
+2. Data Understanding
+3. Data Preparation
+4. Exploratory Data Analysis
+5. Modeling
+6. Conclusion
+7. Recommendations
+8. References
 
 ### Business Understanding
-#### Introduction
-This project involves time series modeling using Zillow housing data. The goal is to understand housing market trends and forecast future housing prices.
+Happy Homes Partners aims to enhance their property investments by identifying optimal locations. Tech to Tech Hub is tasked with supporting this goal using a comprehensive Zillow dataset (April 1996 to April 2018) to determine the top 5 zip codes with the highest investment potential.
 
-#### Business Problem
-The project aims to provide insights into housing price trends and help stakeholders make informed decisions.
+### Business Problem
+Identify the top 5 zip codes with the most promising investment potential for Happy Homes Partners.
 
 ### Objectives
-**Analyze historical housing data.
+**Main Objective:**
+What are the top 5 best zip codes for Happy Homes Partners to invest in?
 
-**Develop time series models to forecast future housing prices.
-
-**Evaluate the performance of different time series models.
+**Specific Objectives:**
+1. Identify and establish the top 5 zip codes with the highest ROI.
+2. Develop time series models to forecast real estate prices for various zip codes over different time horizons.
+3. Evaluate the performance of these time series models using suitable metrics to ensure reliable and effective price predictions.
 
 ## Data Understanding
 
-### Summary of the Dataset
+#### Summary of the Dataset
 The dataset comprises 14,723 rows and 272 columns, mainly in wide format with date columns.
 
-### Data Ispection 
+#### Data Ispection 
 The dataset includes various data types and spans multiple zip codes and time periods.
 
 ## Data Preparation 
 
-### Duplicates and Missing Values
+- Duplicates and Missing Values -
 Handled duplicates and missing values to ensure data quality.
 
-### Renaming and Conversion
+- Renaming and Conversion -
 Standardized column names and data types.
 
-### Feature Engineering: Return on Investment (ROI)
+- Feature Engineering - Return on Investment (ROI)
 Calculated ROI for each zip code to identify top-performing areas.
 
-### Checking for Outliers
+- Checking for Outliers - 
 Analyzed outliers to determine their impact on the dataset.
 
-### Top 5 Zip Codes with Highest ROI
-The top 5 zip codes with the highest ROI were identified and analyzed.
-
-### Top 5 ZipCode Areas with High Growth Rate
-![Genre Rating Relationship](https://github.com/PaulMuniu/Phase-4-Group-Project/blob/main/Images/zipcodes%20with%20high%20growth%20rates.png)
 
 ### Resampling
 Data was resampled to different time intervals:
@@ -80,72 +70,50 @@ Data was resampled to different time intervals:
  **Quarterly Data
  **Yearly Data
  
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
-## Univariate Analysis
+#### Top 5 Zip Codes with Highest ROI
+An analysis was conducted to identify and evaluate the top 5 zip codes with the highest Return on Investment (ROI).
 
-### Top 10 Most Popular Counties
-![Genre Rating Relationship](https://github.com/PaulMuniu/Phase-4-Group-Project/blob/main/Images/top%20Most%20popular%20countries.png)
-Los Angeles is the most popular county with approximately 70,000 zip codes.
-
-
-### Top 10 Most Popular Cities
-![Genre Rating Relationship](https://github.com/PaulMuniu/Phase-4-Group-Project/blob/main/Images/popular%20cities.png)
-New York City, Los Angeles, and Houston are the most popular cities.
+<img src="Images\output.png">
 
 
-#### Average House Prices by State
-![Genre Rating Relationship](https://github.com/PaulMuniu/Phase-4-Group-Project/blob/main/Images/av.%20housing%20prices.png)
-Analysis of average house prices across different states.
+#### Top 5 Zip Code Areas with High Growth Rate
 
-## Bivariate Analysis
+<img src="Images\zipcodes with high growth rates.png">
 
-### Top States Based on Average Value
-![Genre Rating Relationship](https://github.com/PaulMuniu/Phase-4-Group-Project/blob/main/Images/top%20states%20based%20on%20av.%20value%20over%20years.png)
-States like California and others were analyzed based on average housing values.
+## Modeling
+**Time series for the top 5 zipcodes.**
 
+![alt text](image.png)
 
-# Modeling
+### 1. Baseline Model: Simple Moving Average (SMA)
+Initiated the analysis by establishing a baseline using the Simple Moving Average (SMA) model. This provided a foundational comparison for subsequent, more complex models.
 
-## Baseline Model  : Simple Moving Average (SMA)
-Established a baseline using the Simple Moving Average model.
+### 2. ARIMA Modeling
+Developed and fine-tuned ARIMA models to forecast housing prices. 
 
-## ARIMA Modeling
-Developed ARIMA models to forecast housing prices.
+### 3. AutoARIMA Model
+Leveraged the AutoARIMA technique for automatic parameter selection and model optimization. This approach facilitated efficient and accurate model fitting by automating the selection of the best ARIMA parameters.
 
-## AutoARIMA Model
-Used AutoARIMA for automatic parameter selection.
+### 4. Final Model: Facebook Prophet
+Adopted Facebook Prophet as the final model for advanced time series forecasting. Prophet was chosen for its robustness in handling seasonality and trend components, offering enhanced forecasting accuracy.
 
-## Final Model: Facebook Prophet
-Implemented Facebook Prophet for advanced time series forecasting.
+## Conclusion.
 
-## Conclusion
-The project provided valuable insights into housing market trends and developed models for future price predictions.
+### *Summary of Findings
+Through this analysis, we identified the top 5 zip codes with the highest ROI, revealing promising investment opportunities for Happy Homes Partners. The exploration and modeling phases provided valuable insights into the real estate market trends and the potential for profitable investments.
+### *Future Work
+To further refine the investment strategy, additional factors such as economic indicators and demographic trends could be incorporated into future models.
 
-**Baseline Model**  
-The Baseline ARIMA model shows excellent predictive performance, with low Mean Squared Error (MSE) for both training and test datasets. The close alignment of actual and predicted values in the graphs highlights its effectiveness in capturing historical trends, making it ideal for minimizing prediction errors.
+### *Final Thoughts
+This project underscores the importance of leveraging data science to make informed real estate investment decisions. The insights gained from the time series analysis provide a solid foundation for strategic planning & investment optimization in the dynamic real estate market.
 
-**Facebook Model**  
-The Facebook model is crucial for handling seasonality, particularly evident during the 2008 financial crisis when house prices dropped. It indicates an upward trend in house prices across various zip codes, with distinct growth rates. Notably, prices tend to rise starting in December. This model can be adjusted to adapt to future financial crises and seasonal patterns.
-
-**Top 5 Zip Codes for Investment:**  
-7302, 11211, 11215, 11216, and 11222, based on return on investment.
-
-### Recommendations
-1.Positive predicted values for the top 5 zip codes suggest promising investment opportunities.
-
-2.Consider the city's unique characteristics, development prospects, and economic growth when making investment decisions.
-
-3.Focus on cities with higher ROI figures, as they indicate efficient investment opportunities for example Houston, Riverdale and NewYork.
-
-4.Consider Diversification: While all the analyzed states exhibit favorable investment opportunities, consider diversifying the investment portfolio across multiple states. This approach can help mitigate risk and capture various market dynamics.
-
-### References
-List of references used in the project:
-
+### References.
 1.https://facebook.github.io/prophet/docs/quick_start.html
 
 2.https://github.com/PMEAL/pmdarima
 
 3.https://scikit-learn.org/stable/modules/model_evaluation.html
-.
+
+>## *“Data is the new oil ...”* - Clive Humby.
