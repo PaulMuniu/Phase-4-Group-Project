@@ -1,5 +1,5 @@
 # Zillow Housing Data Time Series Modeling 🏘️.
-<img src="Images\real estate image.jpg" alt="Genre Rating Relationship" width="800" height="300">
+<img src="Images\real estate image.jpg" alt="Genre Rating Relationship" width="700" height="400">
 
 
 ### Team Members:
@@ -11,7 +11,7 @@
  
  
  ##  Project Overview
-The real estate market is dynamic and constantly evolving. To stay competitive and profitable, real estate companies need to analyze market trends. Happy Homes Partners(our clients), a real estate investor, recognizes the importance of data science in identifying lucrative investment opportunities and guiding clients towards profitable decisions.
+The real estate market is dynamic and constantly evolving. To stay competitive and profitable, real estate companies need to analyze market trends. Happy Homes Partners (our client), a real estate investor, recognizes the importance of data science in identifying lucrative investment opportunities and guiding clients towards profitable decisions.
 
 
 
@@ -26,7 +26,7 @@ The real estate market is dynamic and constantly evolving. To stay competitive a
 8. References
 
 ### Business Understanding
-Happy Homes Partners aims to enhance their property investments by identifying optimal locations. Tech to Tech Hub is tasked with supporting this goal using a comprehensive Zillow dataset (April 1996 to April 2018) to determine the top 5 zip codes with the highest investment potential.
+Happy Homes Partners aims to enhance their property investments by identifying optimal locations. Us as 'Tech to Tech Hub' we are tasked with supporting this goal using a comprehensive Zillow dataset (April 1996 to April 2018) to determine the top 5 zip codes with the highest investment potential.
 
 ### Business Problem
 Identify the top 5 zip codes with the most promising investment potential for Happy Homes Partners.
@@ -56,7 +56,7 @@ Handled duplicates and missing values to ensure data quality.
 - Renaming and Conversion -
 Standardized column names and data types.
 
-- Feature Engineering - Return on Investment (ROI)
+- Feature Engineering - Return on Investment (ROI);
 Calculated ROI for each zip code to identify top-performing areas.
 
 - Checking for Outliers - 
