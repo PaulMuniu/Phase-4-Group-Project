@@ -1,5 +1,9 @@
 # Zillow Housing Data Time Series Modeling 🏘️.
+<<<<<<< HEAD
 <img src="Images\real estate image.jpg" alt="Genre Rating Relationship" width="800" height="300">
+=======
+<img src="Images\real estate image.jpg" alt="Genre Rating Relationship" width="700" height="400">
+>>>>>>> fae0f12b9ec60152c8a168c8bf413bc4413a0e8d
 
 
 ### Team Members:
@@ -11,7 +15,11 @@
  
  
  ##  Project Overview
+<<<<<<< HEAD
 The real estate market is dynamic and constantly evolving. To stay competitive and profitable, real estate companies need to analyze market trends. Happy Homes Partners(our clients), a real estate investor, recognizes the importance of data science in identifying lucrative investment opportunities and guiding clients towards profitable decisions.
+=======
+The real estate market is dynamic and constantly evolving. To stay competitive and profitable, real estate companies need to analyze market trends. Happy Homes Partners (our client), a real estate investor, recognizes the importance of data science in identifying lucrative investment opportunities and guiding clients towards profitable decisions.
+>>>>>>> fae0f12b9ec60152c8a168c8bf413bc4413a0e8d
 
 
 
@@ -26,7 +34,11 @@ The real estate market is dynamic and constantly evolving. To stay competitive a
 8. References
 
 ### Business Understanding
+<<<<<<< HEAD
 Happy Homes Partners aims to enhance their property investments by identifying optimal locations. Tech to Tech Hub is tasked with supporting this goal using a comprehensive Zillow dataset (April 1996 to April 2018) to determine the top 5 zip codes with the highest investment potential.
+=======
+Happy Homes Partners aims to enhance their property investments by identifying optimal locations. Us as 'Tech to Tech Hub' we are tasked with supporting this goal using a comprehensive Zillow dataset (April 1996 to April 2018) to determine the top 5 zip codes with the highest investment potential.
+>>>>>>> fae0f12b9ec60152c8a168c8bf413bc4413a0e8d
 
 ### Business Problem
 Identify the top 5 zip codes with the most promising investment potential for Happy Homes Partners.
@@ -56,7 +68,11 @@ Handled duplicates and missing values to ensure data quality.
 - Renaming and Conversion -
 Standardized column names and data types.
 
+<<<<<<< HEAD
 - Feature Engineering - Return on Investment (ROI)
+=======
+- Feature Engineering - Return on Investment (ROI);
+>>>>>>> fae0f12b9ec60152c8a168c8bf413bc4413a0e8d
 Calculated ROI for each zip code to identify top-performing areas.
 
 - Checking for Outliers - 
@@ -116,4 +132,8 @@ This project underscores the importance of leveraging data science to make infor
 
 3.https://scikit-learn.org/stable/modules/model_evaluation.html
 
+<<<<<<< HEAD
 >## *“Data is the new oil ...”* - Clive Humby.
+=======
+>## *“Data is the new oil ...”* - Clive Humby.
+>>>>>>> fae0f12b9ec60152c8a168c8bf413bc4413a0e8d
